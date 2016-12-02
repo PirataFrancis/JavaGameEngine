@@ -1,13 +1,12 @@
 package me.checco.game;
 
-import me.checco.game.entities.Entity;
-import me.checco.game.graphics.spritesheet.SpriteSheet;
 import me.checco.game.graphics.spritesheet.SpriteSheetOptions;
+import me.checco.game.input.InputHandler;
+import me.checco.game.input.InputOptions;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferStrategy;
-import java.util.HashMap;
 
 /**
  * Created by Checco on 30/11/2016.
@@ -18,18 +17,31 @@ public class GameBasic extends Canvas implements Runnable {
     private Thread mainThread;
     private boolean running = false;
     private GameOptions gOptions;
-
-    private SpriteSheetOptions gSpriteSheetsOptions = new SpriteSheetOptions();
     private GameHandler gHandler;
+    private InputHandler gInputHandler;
 
-    public GameBasic(GameOptions gOptions) {
-        this.gOptions = gOptions;
-        this.gHandler = new GameHandler();
+    private InputOptions gInputOptions = new InputOptions();
+    private SpriteSheetOptions gSpriteSheetsOptions = new SpriteSheetOptions();
+
+    public GameBasic() {
+        this.gOptions = new GameOptions();
+        this.gHandler = new GameHandler(this);
+        this.gInputHandler = new InputHandler(this);
         archSetup();
     }
 
-    public void setSSConfiguration(SpriteSheetOptions spriteSheetOptions){
-        this.gSpriteSheetsOptions = spriteSheetOptions;
+    public GameBasic(GameOptions gOptions) {
+        this.gOptions = gOptions;
+        this.gHandler = new GameHandler(this);
+        this.gInputHandler = new InputHandler(this);
+        archSetup();
+    }
+
+    public GameBasic(GameOptions gOptions, InputOptions inputOptions, SpriteSheetOptions gSpriteSheetsOptions) {
+        this.gOptions = gOptions;
+        this.gInputHandler = new InputHandler(this);
+        this.gInputOptions = inputOptions;
+        this.gSpriteSheetsOptions = gSpriteSheetsOptions;
     }
 
     public synchronized void start() {
@@ -132,19 +144,24 @@ public class GameBasic extends Canvas implements Runnable {
     }
 
     private void init(){
-        setAllResources();
-        setAllEntity();
-    }
-
-    private void setAllEntity() {
-        gHandler.addEntities(Entity.getAllEntities(gOptions.getgEntityPath(),this));
-    }
-
-    private void setAllResources() {
-        gHandler.getgSpriteSheets().putAll(SpriteSheet.getAllSS(gSpriteSheetsOptions));
+        gHandler.loadAllSpriteSheet(gSpriteSheetsOptions);
+        gHandler.loadAllEntities();
     }
 
     public GameHandler getgHandler() {
         return gHandler;
     }
+
+    public InputHandler getgInputHandler() {
+        return gInputHandler;
+    }
+
+    public GameOptions getOptions() {
+        return gOptions;
+    }
+
+    public void setSSConfiguration(SpriteSheetOptions spriteSheetOptions){
+        this.gSpriteSheetsOptions = spriteSheetOptions;
+    }
+
 }

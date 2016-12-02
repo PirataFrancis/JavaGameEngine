@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24551434-9348-472d-97d7-77cf12e05c96" name="Default" comment="" />
+    <list default="true" id="24551434-9348-472d-97d7-77cf12e05c96" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/checco/game/input/InputOptions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/checco/game/input/Key.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/checco/game/input/KeyCode.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/google_gson_stream_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java2DGame/me/checco/game/InputHandler$Key.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java2DGame/me/checco/game/InputHandler.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/me/checco/game/InputHandler.java" afterPath="$PROJECT_DIR$/src/me/checco/game/input/InputHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java2DGame/me/checco/game/GameBasic.class" afterPath="$PROJECT_DIR$/out/production/Java2DGame/me/checco/game/GameBasic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java2DGame/me/checco/game/GameHandler.class" afterPath="$PROJECT_DIR$/out/production/Java2DGame/me/checco/game/GameHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java2DGame/me/checco/game/ProvaGame.class" afterPath="$PROJECT_DIR$/out/production/Java2DGame/me/checco/game/ProvaGame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java2DGame/me/checco/game/entities/Entity.class" afterPath="$PROJECT_DIR$/out/production/Java2DGame/me/checco/game/entities/Entity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java2DGame/me/checco/game/graphics/spritesheet/SpriteSheet.class" afterPath="$PROJECT_DIR$/out/production/Java2DGame/me/checco/game/graphics/spritesheet/SpriteSheet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java2DGame.iml" afterPath="$PROJECT_DIR$/Java2DGame.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java2DGame/entities/player.json" afterPath="$PROJECT_DIR$/out/production/Java2DGame/entities/player.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/entities/player.json" afterPath="$PROJECT_DIR$/res/entities/player.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/checco/game/GameBasic.java" afterPath="$PROJECT_DIR$/src/me/checco/game/GameBasic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/checco/game/GameHandler.java" afterPath="$PROJECT_DIR$/src/me/checco/game/GameHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/checco/game/ProvaGame.java" afterPath="$PROJECT_DIR$/src/me/checco/game/ProvaGame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/checco/game/entities/Entity.java" afterPath="$PROJECT_DIR$/src/me/checco/game/entities/Entity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/checco/game/graphics/spritesheet/SpriteSheet.java" afterPath="$PROJECT_DIR$/src/me/checco/game/graphics/spritesheet/SpriteSheet.java" />
+    </list>
     <ignored path="Java2DGame.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/src/me/checco/game/ProvaGame.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -35,35 +59,30 @@
       <file leaf-file-name="GameBasic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/checco/game/GameBasic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="139" column="81" selection-start-line="139" selection-start-column="81" selection-end-line="139" selection-end-column="81" />
+            <state relative-caret-position="387">
+              <caret line="154" column="42" selection-start-line="154" selection-start-column="42" selection-end-line="154" selection-end-column="42" />
               <folding>
                 <element signature="docComment;class#GameBasic#0" expanded="false" />
                 <element signature="method#GameBasic#0;class#GameBasic#0" expanded="false" />
-                <element signature="method#setSSConfiguration#0;class#GameBasic#0" expanded="false" />
+                <element signature="method#GameBasic#1;class#GameBasic#0" expanded="false" />
+                <element signature="method#GameBasic#2;class#GameBasic#0" expanded="false" />
                 <element signature="method#start#0;class#GameBasic#0" expanded="false" />
                 <element signature="method#stop#0;class#GameBasic#0" expanded="false" />
                 <element signature="method#run#0;class#GameBasic#0" expanded="false" />
-                <element signature="e#2361#2362#0" expanded="true" />
-                <element signature="e#2392#2393#0" expanded="true" />
+                <element signature="method#render#0;class#GameBasic#0" expanded="false" />
                 <element signature="method#archSetup#0;class#GameBasic#0" expanded="false" />
                 <element signature="method#init#0;class#GameBasic#0" expanded="false" />
-                <element signature="e#3733#3734#0" expanded="true" />
-                <element signature="e#3824#3825#0" expanded="true" />
-                <element signature="e#3862#3863#0" expanded="true" />
-                <element signature="e#3956#3957#0" expanded="true" />
-                <element signature="e#3996#3997#0" expanded="true" />
-                <element signature="e#4027#4028#0" expanded="true" />
+                <element signature="method#setSSConfiguration#0;class#GameBasic#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="player.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/entities/player.json">
+      <file leaf-file-name="InputOptions.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/checco/game/input/InputOptions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="51">
+              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -72,35 +91,58 @@
       <file leaf-file-name="Entity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/checco/game/entities/Entity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
+            <state relative-caret-position="493">
+              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
               <folding>
                 <element signature="docComment;class#Entity#0" expanded="false" />
-                <element signature="e#705#726#0" expanded="false" />
-                <element signature="e#767#788#0" expanded="false" />
-                <element signature="e#829#860#0" expanded="false" />
-                <element signature="e#916#940#0" expanded="false" />
+                <element signature="e#347#368#0" expanded="false" />
+                <element signature="e#409#430#0" expanded="false" />
+                <element signature="e#471#502#0" expanded="false" />
+                <element signature="e#558#582#0" expanded="false" />
+                <element signature="method#Entity#0;class#Entity#0" expanded="false" />
+                <element signature="method#render#0;class#Entity#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpriteSheet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/me/checco/game/graphics/spritesheet/SpriteSheet.java">
+      <file leaf-file-name="InputHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/me/checco/game/input/InputHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+            <state relative-caret-position="493">
+              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+              <folding>
+                <element signature="docComment;class#InputHandler#0" expanded="false" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="method#toggleKey#0;class#InputHandler#0" expanded="false" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Key.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/checco/game/input/Key.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpriteSheetOptions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/checco/game/graphics/spritesheet/SpriteSheetOptions.java">
+      <file leaf-file-name="KeyCode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/checco/game/input/KeyCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="102">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <element signature="docComment;class#KeyCode#0" expanded="false" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,8 +153,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -127,11 +173,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/me/checco/game/graphics/spritesheet/SpriteSheet.java" />
+        <option value="$PROJECT_DIR$/src/me/checco/game/ProvaGame.java" />
+        <option value="$PROJECT_DIR$/res/entities/player.json" />
         <option value="$PROJECT_DIR$/src/me/checco/game/GameHandler.java" />
+        <option value="$PROJECT_DIR$/src/me/checco/game/input/InputOptions.java" />
+        <option value="$PROJECT_DIR$/src/me/checco/game/input/Key.java" />
+        <option value="$PROJECT_DIR$/jinput.jar!/net/java/games/input/Controller.class" />
+        <option value="$PROJECT_DIR$/src/me/checco/game/input/KeyCode.java" />
         <option value="$PROJECT_DIR$/src/me/checco/game/GameBasic.java" />
         <option value="$PROJECT_DIR$/src/me/checco/game/entities/Entity.java" />
-        <option value="$PROJECT_DIR$/res/entities/player.json" />
-        <option value="$PROJECT_DIR$/src/me/checco/game/graphics/spritesheet/SpriteSheet.java" />
+        <option value="$PROJECT_DIR$/src/me/checco/game/input/InputHandler.java" />
       </list>
     </option>
   </component>
@@ -167,6 +219,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,98 +275,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="graphics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java2DGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java2DGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graphics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spritesheet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java2DGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java2DGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java2DGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java2DGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spritesheet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java2DGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java2DGame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="entities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -592,7 +560,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -603,11 +571,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Gradle View" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -656,7 +624,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -684,20 +652,15 @@
           <folding>
             <element signature="docComment;class#GameBasic#0" expanded="false" />
             <element signature="method#GameBasic#0;class#GameBasic#0" expanded="false" />
-            <element signature="method#setSSConfiguration#0;class#GameBasic#0" expanded="false" />
+            <element signature="method#GameBasic#1;class#GameBasic#0" expanded="false" />
+            <element signature="method#GameBasic#2;class#GameBasic#0" expanded="false" />
             <element signature="method#start#0;class#GameBasic#0" expanded="false" />
             <element signature="method#stop#0;class#GameBasic#0" expanded="false" />
             <element signature="method#run#0;class#GameBasic#0" expanded="false" />
-            <element signature="e#2361#2362#0" expanded="true" />
-            <element signature="e#2392#2393#0" expanded="true" />
+            <element signature="method#render#0;class#GameBasic#0" expanded="false" />
             <element signature="method#archSetup#0;class#GameBasic#0" expanded="false" />
             <element signature="method#init#0;class#GameBasic#0" expanded="false" />
-            <element signature="e#3733#3734#0" expanded="true" />
-            <element signature="e#3824#3825#0" expanded="true" />
-            <element signature="e#3862#3863#0" expanded="true" />
-            <element signature="e#3956#3957#0" expanded="true" />
-            <element signature="e#3996#3997#0" expanded="true" />
-            <element signature="e#4027#4028#0" expanded="true" />
+            <element signature="method#setSSConfiguration#0;class#GameBasic#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -716,10 +679,12 @@
           <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
           <folding>
             <element signature="docComment;class#Entity#0" expanded="false" />
-            <element signature="e#705#726#0" expanded="false" />
-            <element signature="e#767#788#0" expanded="false" />
-            <element signature="e#829#860#0" expanded="false" />
-            <element signature="e#916#940#0" expanded="false" />
+            <element signature="e#347#368#0" expanded="false" />
+            <element signature="e#409#430#0" expanded="false" />
+            <element signature="e#471#502#0" expanded="false" />
+            <element signature="e#558#582#0" expanded="false" />
+            <element signature="method#Entity#0;class#Entity#0" expanded="false" />
+            <element signature="method#render#0;class#Entity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -728,7 +693,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="docComment;class#SpriteSheet#0" expanded="false" />
+            <element signature="method#SpriteSheet#0;class#SpriteSheet#0" expanded="false" />
+            <element signature="method#SpriteSheet#1;class#SpriteSheet#0" expanded="false" />
+            <element signature="method#getSprite#0;class#SpriteSheet#0" expanded="false" />
+            <element signature="method#getSubSpriteSheet#0;class#SpriteSheet#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -736,7 +707,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="docComment;class#SpriteSheetOptions#0" expanded="false" />
+            <element signature="method#SpriteSheetOptions#0;class#SpriteSheetOptions#0" expanded="false" />
+            <element signature="method#SpriteSheetOptions#1;class#SpriteSheetOptions#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -755,41 +730,16 @@
           <folding>
             <element signature="docComment;class#GameBasic#0" expanded="false" />
             <element signature="method#GameBasic#0;class#GameBasic#0" expanded="false" />
-            <element signature="method#setSSConfiguration#0;class#GameBasic#0" expanded="false" />
+            <element signature="method#GameBasic#1;class#GameBasic#0" expanded="false" />
+            <element signature="method#GameBasic#2;class#GameBasic#0" expanded="false" />
             <element signature="method#start#0;class#GameBasic#0" expanded="false" />
             <element signature="method#stop#0;class#GameBasic#0" expanded="false" />
             <element signature="method#run#0;class#GameBasic#0" expanded="false" />
-            <element signature="e#2361#2362#0" expanded="true" />
-            <element signature="e#2392#2393#0" expanded="true" />
+            <element signature="method#render#0;class#GameBasic#0" expanded="false" />
             <element signature="method#archSetup#0;class#GameBasic#0" expanded="false" />
             <element signature="method#init#0;class#GameBasic#0" expanded="false" />
-            <element signature="e#3733#3734#0" expanded="true" />
-            <element signature="e#3824#3825#0" expanded="true" />
-            <element signature="e#3862#3863#0" expanded="true" />
-            <element signature="e#3956#3957#0" expanded="true" />
-            <element signature="e#3996#3997#0" expanded="true" />
-            <element signature="e#4027#4028#0" expanded="true" />
+            <element signature="method#setSSConfiguration#0;class#GameBasic#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/checco/game/GameHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
-          <folding>
-            <element signature="docComment;class#GameHandler#0" expanded="false" />
-            <element signature="method#tick#0;class#GameHandler#0" expanded="false" />
-            <element signature="e#1004#1005#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/checco/game/graphics/spritesheet/SpriteSheetOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,23 +753,210 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/checco/game/entities/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
+        <state relative-caret-position="1003">
           <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
           <folding>
             <element signature="docComment;class#Entity#0" expanded="false" />
-            <element signature="e#705#726#0" expanded="false" />
-            <element signature="e#767#788#0" expanded="false" />
-            <element signature="e#829#860#0" expanded="false" />
-            <element signature="e#916#940#0" expanded="false" />
+            <element signature="e#347#368#0" expanded="false" />
+            <element signature="e#409#430#0" expanded="false" />
+            <element signature="e#471#502#0" expanded="false" />
+            <element signature="e#558#582#0" expanded="false" />
+            <element signature="method#Entity#0;class#Entity#0" expanded="false" />
+            <element signature="method#render#0;class#Entity#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/checco/game/graphics/spritesheet/SpriteSheet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#SpriteSheet#0" expanded="false" />
+            <element signature="method#SpriteSheet#0;class#SpriteSheet#0" expanded="false" />
+            <element signature="method#SpriteSheet#1;class#SpriteSheet#0" expanded="false" />
+            <element signature="method#getSprite#0;class#SpriteSheet#0" expanded="false" />
+            <element signature="method#getSubSpriteSheet#0;class#SpriteSheet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/checco/game/graphics/spritesheet/SpriteSheetOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#SpriteSheetOptions#0" expanded="false" />
+            <element signature="method#SpriteSheetOptions#0;class#SpriteSheetOptions#0" expanded="false" />
+            <element signature="method#SpriteSheetOptions#1;class#SpriteSheetOptions#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/checco/game/graphics/spritesheet/SpriteSheetOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#SpriteSheetOptions#0" expanded="false" />
+            <element signature="method#SpriteSheetOptions#0;class#SpriteSheetOptions#0" expanded="false" />
+            <element signature="method#SpriteSheetOptions#1;class#SpriteSheetOptions#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/checco/game/GameOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/checco/game/GameHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding>
+            <element signature="docComment;class#GameHandler#0" expanded="false" />
+            <element signature="method#tick#0;class#GameHandler#0" expanded="false" />
+            <element signature="method#render#0;class#GameHandler#0" expanded="false" />
+            <element signature="method#loadAllEntities#0;class#GameHandler#0" expanded="false" />
+            <element signature="method#loadAllSpriteSheet#0;class#GameHandler#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/checco/game/graphics/spritesheet/SpriteSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
+          <folding>
+            <element signature="docComment;class#SpriteSheet#0" expanded="false" />
+            <element signature="method#SpriteSheet#0;class#SpriteSheet#0" expanded="false" />
+            <element signature="method#SpriteSheet#1;class#SpriteSheet#0" expanded="false" />
+            <element signature="method#getSprite#0;class#SpriteSheet#0" expanded="false" />
+            <element signature="method#getSubSpriteSheet#0;class#SpriteSheet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/entities/player.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20098">
+          <caret line="1273" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="1273" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jinput.jar!/net/java/games/input/Controller.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/checco/game/input/Key.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/checco/game/graphics/spritesheet/NotValidSpriteSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/checco/game/input/InputOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/checco/game/ProvaGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/checco/game/GameBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="154" column="42" selection-start-line="154" selection-start-column="42" selection-end-line="154" selection-end-column="42" />
+          <folding>
+            <element signature="docComment;class#GameBasic#0" expanded="false" />
+            <element signature="method#GameBasic#0;class#GameBasic#0" expanded="false" />
+            <element signature="method#GameBasic#1;class#GameBasic#0" expanded="false" />
+            <element signature="method#GameBasic#2;class#GameBasic#0" expanded="false" />
+            <element signature="method#start#0;class#GameBasic#0" expanded="false" />
+            <element signature="method#stop#0;class#GameBasic#0" expanded="false" />
+            <element signature="method#run#0;class#GameBasic#0" expanded="false" />
+            <element signature="method#render#0;class#GameBasic#0" expanded="false" />
+            <element signature="method#archSetup#0;class#GameBasic#0" expanded="false" />
+            <element signature="method#init#0;class#GameBasic#0" expanded="false" />
+            <element signature="method#setSSConfiguration#0;class#GameBasic#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/checco/game/entities/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+          <folding>
+            <element signature="docComment;class#Entity#0" expanded="false" />
+            <element signature="e#347#368#0" expanded="false" />
+            <element signature="e#409#430#0" expanded="false" />
+            <element signature="e#471#502#0" expanded="false" />
+            <element signature="e#558#582#0" expanded="false" />
+            <element signature="method#Entity#0;class#Entity#0" expanded="false" />
+            <element signature="method#render#0;class#Entity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/checco/game/input/KeyCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="docComment;class#KeyCode#0" expanded="false" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/checco/game/input/InputHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+          <folding>
+            <element signature="docComment;class#InputHandler#0" expanded="false" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="method#toggleKey#0;class#InputHandler#0" expanded="false" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -900,7 +1037,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>google-gson-stream-2.2.1</last-edited>
+          <last-edited>gson-2.2.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

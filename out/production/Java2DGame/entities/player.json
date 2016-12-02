@@ -1,12 +1,26 @@
-{
-  "eX":0.0,
-  "eY":0.0,
-  "eSpriteSheet": {
-    "name":"prova",
-    "xOffset":1,
-    "yOffset":1,
-    "xMuch":1,
-    "yMuch":1
+[
+  {
+    "eX":0.0,
+    "eY":0.0,
+    "eSpriteSheet": {
+      "name":"prova",
+      "xOffset":1,
+      "yOffset":1,
+      "xMuch":1,
+      "yMuch":1
+    },
+    "eName":"nome"
   },
-  "eName":"nome"
-}
+  {
+    "eX":20.0,
+    "eY":20.0,
+    "eSpriteSheet": {
+      "name":"prova",
+      "xOffset":1,
+      "yOffset":1,
+      "xMuch":1,
+      "yMuch":1
+    },
+    "eName":"provola"
+  }
+]

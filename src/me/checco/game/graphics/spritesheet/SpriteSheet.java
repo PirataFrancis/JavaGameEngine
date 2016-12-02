@@ -14,7 +14,9 @@ import java.util.HashMap;
 public class SpriteSheet {
 
     private SpriteSheetOptions ssOptions;
+
     private String ssFileName;
+
     private BufferedImage ssImage;
 
     public SpriteSheet(String filename,SpriteSheetOptions spriteSheetOptions){
@@ -42,6 +44,7 @@ public class SpriteSheet {
         }
     }
 
+
     public BufferedImage getSprite(int col,int row, int width,int height){
         BufferedImage img = ssImage.getSubimage((col-1)*ssOptions.getSsSpriteW(),(row-1)*ssOptions.getSsSpriteH(),width,height);
         return img;
@@ -49,30 +52,9 @@ public class SpriteSheet {
 
     public SpriteSheet getSubSpriteSheet(int xOffset,int yOffset,int xMuch,int yMuch){
         SpriteSheetOptions op = this.ssOptions;
-        op.setSsSpriteW(xMuch*ssOptions.getSsWidth());
-        op.setSsSpriteH(yMuch*ssOptions.getSsHeight());
-        return new SpriteSheet(this.getSprite(xOffset,yOffset,xMuch*ssOptions.getSsWidth(),yMuch*ssOptions.getSsHeight()),op);
-    }
-
-    public static HashMap<String,SpriteSheet> getAllSS(SpriteSheetOptions ssOptions){
-        HashMap<String,SpriteSheet> result = new HashMap<>();
-        File allFile = null;
-        File[] listfile;
-
-        try {
-            allFile = new File(SpriteSheet.class.getResource(ssOptions.getSsPath()).toURI());
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
-        }
-        FileFilter accept = pathname -> pathname.getName().contains(".png");
-        if (allFile != null) {
-            listfile = allFile.listFiles(accept);
-            for (File aListfile : listfile) {
-                result.put(aListfile.getName().substring(0,aListfile.getName().lastIndexOf(".")),new SpriteSheet(ssOptions.getSsPath()+"/"+aListfile.getName(),ssOptions));
-            }
-        }
-        System.out.println("Loaded SpriteSheets :"+result);
-        return result;
+        op.setSsWidth(xMuch*ssOptions.getSsSpriteW());
+        op.setSsHeight(yMuch*ssOptions.getSsSpriteH());
+        return new SpriteSheet(this.getSprite(xOffset,yOffset,op.getSsWidth(),op.getSsHeight()),op);
     }
 
     public BufferedImage getSsImage() {
