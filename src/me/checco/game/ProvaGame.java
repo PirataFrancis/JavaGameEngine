@@ -8,16 +8,11 @@ import me.checco.game.graphics.spritesheet.SpriteSheetOptions;
 public class ProvaGame {
 
     private static GameBasic gioco;
-    private static GameOptions settings = new GameOptions();
 
     public static void main(String[] args){
 
-        settings.setgWidth(320);
-        settings.setgHeight(settings.getgWidth()/12*9);
-        settings.setgScale(3);
-        settings.setgName("Figo");
-
-        gioco = new GameBasic(settings);
+        gioco = new GameBasic();
         gioco.start();
+
     }
 }
