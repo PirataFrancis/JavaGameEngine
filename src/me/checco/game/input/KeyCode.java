@@ -8,7 +8,7 @@ import java.util.Map;
  */
 
 public enum KeyCode {
-    UP(1),DOWN(0),LEFT(0),RIGHT(0);
+    UP(38),DOWN(40),LEFT(37),RIGHT(39);
 
     private int eventKeyCode;
 
@@ -23,5 +23,9 @@ public enum KeyCode {
 
     private KeyCode(final int val){
         this.eventKeyCode = val;
+    }
+
+    public static KeyCode getKeyCode(int code){
+        return map.get(code);
     }
 }

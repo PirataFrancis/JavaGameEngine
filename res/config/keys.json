@@ -1,0 +1,14 @@
+[
+  {
+    "keyCode":"DOWN"
+  },
+  {
+    "keyCode":"UP"
+  },
+  {
+    "keyCode":"LEFT"
+  },
+  {
+    "keyCode":"RIGHT"
+  }
+]

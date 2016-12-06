@@ -7,6 +7,7 @@ import me.checco.game.graphics.spritesheet.SpriteSheet;
 import me.checco.game.input.KeyCode;
 
 import java.awt.*;
+import java.awt.geom.Rectangle2D;
 
 /**
  * Created by Checco on 01/12/2016.
@@ -15,11 +16,13 @@ public class Entity  {
 
     @SerializedName("eX")
     @Expose
-    private double eX;
+    private int eX;
 
     @SerializedName("eY")
     @Expose
-    private double eY;
+    private int eY;
+
+    private int level;
 
     @SerializedName("eSpriteSheet")
     @Expose
@@ -31,7 +34,7 @@ public class Entity  {
 
     protected GameBasic game;
 
-    public Entity(String name, double x, double y, GameBasic game, SpriteSheet spriteSheet){
+    public Entity(String name, int x, int y, GameBasic game, SpriteSheet spriteSheet){
         this.eX = x;
         this.eY = y;
         this.eSpriteSheet = spriteSheet;
@@ -40,14 +43,13 @@ public class Entity  {
     }
 
     public void tick(){
-        if(game.getgInputHandler().isKeyDown(KeyCode.DOWN)){
-            eY++;
-        }
+
     }
 
     public void render(Graphics g){
         g.drawImage(eSpriteSheet.getSprite(1,1,eSpriteSheet.getSsOptions().getSsSpriteH(),eSpriteSheet.getSsOptions().getSsSpriteH()),(int)eX,(int)eY,null);
     }
+
 
 
 }

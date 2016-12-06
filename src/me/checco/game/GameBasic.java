@@ -145,7 +145,6 @@ public class GameBasic extends Canvas implements Runnable {
 
     private void init(){
         gHandler.loadAllSpriteSheet(gSpriteSheetsOptions);
-        gHandler.loadAllEntities();
     }
 
     public GameHandler getgHandler() {
